@@ -6,7 +6,7 @@ const path = require('path');
 const Gallery = require('./gallery');
 const mongoose = require('mongoose');
 const tempDir = `${__dirname}/../temp`;
-const awsS3 = require('../lib/aws_S3');
+const awsS3 = require('../lib/aws_s3');
 
 const Photo = mongoose.Schema({
   name: {type: String, required: true},
