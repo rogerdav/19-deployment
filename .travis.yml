@@ -12,7 +12,7 @@ addons:
         - g++-5
 env:
   - CXX=g++-5
-sude: required
+sudo: required
 
 branches:
   only:
